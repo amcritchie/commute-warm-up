@@ -26,7 +26,7 @@ CSV.foreach('data/gschool_commute_data.csv') do |row|
         :outbound => row[5],
         :distance => row[6]
     }
-    
+
   end
 end
 p '='*40
